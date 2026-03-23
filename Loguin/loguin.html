@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluno Online - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">
+            <img src="https://w7.pngwing.com/pngs/777/916/png-transparent-graduation-ceremony-computer-icons-education-college-logo-school-cdr-angle-rectangle.png" alt="Logo Aluno Online">
+        </div> 
+        <h1>Aluno Online</h1>
+
+        <form id="loginForm" class="login-form">
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                <span class="error-message" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha">
+                <span class="error-message" id="passwordError"></span>
+            </div>
+
+            <button type="submit" class="submit-button">Entrar</button>
+        </form>
+
+        <div id="generalError" class="general-error"></div>
+
+        <footer>
+            <p>© 2026. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
