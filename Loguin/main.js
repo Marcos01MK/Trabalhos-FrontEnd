@@ -1,4 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.
+ddEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('loginForm');
     const emailInput = document.getElementById('email');
     const passwordInput = document.getElementById('password');
