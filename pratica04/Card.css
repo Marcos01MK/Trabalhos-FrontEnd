@@ -1,0 +1,25 @@
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card.default {
+    border-color: #ddd;
+  }
+  
+  .card.highlight {
+    border-color: #3498db;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card.warning {
+    border-color: #e74c3c;
+  }
+  
+  .card-title {
+    margin-bottom: 0.5rem;
+    color: #303030;
+  }
