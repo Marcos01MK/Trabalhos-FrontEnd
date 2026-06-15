@@ -1,0 +1,17 @@
+{
+  "requerimentos": [
+    {
+      "id": 1,
+      "tipo": "Matrícula",
+      "descricao": "Solicitação de matrícula em disciplina optativa.",
+      "data": "2026-05-26"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "email": "aluno@exemplo.com",
+      "senha": "123456"
+    }
+  ]
+}
